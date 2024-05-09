@@ -19,7 +19,7 @@ Here's a step-by-step guide to help you set up the Sorting Robot along with an o
 
     1. Download the Project:
         * Visit the project repository page on GitHub. It can be accessed via this link: 
-        https://github.com/Hickek/Sorting-robot/tree/8d0c5d6faf5c607366564dfed4fd9b3e8fe268cb
+        https://github.com/Hickek/Sorting-robot
         * Download the ZIP file containing the project code.
         * Unzip the file in a convenient location on your computer.
         * Download VSCode if you don't already have it
@@ -55,6 +55,9 @@ Emergency shutdow:
 An emergency shutdown will slowly move the robot arm to the emergency zone and put down the object it is holding. This will not turn off the robot so a regular shutdown is required afterwards.
 To do an emergency shutdown, you can either select 'Emergency Shutdown' in the menu or simply press the left button on the robots interface.
 You will not be able to do this during the robots calibration phase, if you want to shut it down during the calibration you must do a regular shutdown.
+
+Pause:
+In the menu there is an option to pause the robot. If this option is selected the robot as well as the optional conveyor belt will stop moving. The menu option will then be replaced by another that says resume, which upon selected resumes the operation of the robots.
 
 Conveyor belt:
 Follow these instructions;
