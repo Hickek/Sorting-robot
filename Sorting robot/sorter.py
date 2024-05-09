@@ -198,8 +198,8 @@ for i in range(3):
     ev3.speaker.beep()
     wait(100)
 
-start_time = time.time() 
-duration = 3000
+start_time = time.time()
+duration = 1000000000
 
 color_list = []
 def color_detection():
@@ -510,6 +510,7 @@ if __name__ == "__main__":
                     resume()
 
             elif selected_option == 2:
+                start_time = time.time()
                 duration = schedule_menu(schedule_selected_option)
 
             elif selected_option == 3:
